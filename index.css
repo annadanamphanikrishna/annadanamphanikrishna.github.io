@@ -1,0 +1,99 @@
+.home-page-main-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 80%;
+}
+
+.bajaj-label-color {
+  color: #004aaf;
+}
+
+.home-page-heading {
+  color: #004aaf;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.navbar {
+  background-color: #004aaf;
+}
+
+.img-bajaj-home-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.btn-explore-site {
+  text-align: center;
+  margin-top: 32px;
+}
+
+.explore-site-btn {
+  width: 320px;
+}
+
+.btn-arrow-right,
+.btn-arrow-left {
+   position: relative;
+   padding-left: 18px;
+   padding-right: 18px;
+}
+
+.btn-arrow-right {
+   padding-left: 36px;
+}
+
+.btn-arrow-right:before,
+.btn-arrow-right:after {
+   content: "";
+   position: absolute;
+   top: 5px;
+   width: 22px;
+   height: 22px;
+   background: inherit;
+   border: inherit;
+   border-left-color: transparent;
+   border-bottom-color: transparent;
+   border-radius: 0px 4px 0px 0px;
+}
+
+.btn-arrow-right:before,
+.btn-arrow-right:after {
+   transform: rotate(45deg);
+   -webkit-transform: rotate(45deg);
+   -moz-transform: rotate(45deg);
+   -o-transform: rotate(45deg);
+   -ms-transform: rotate(45deg);
+}
+
+.btn-arrow-right:before {
+   left: -11px;
+}
+
+.btn-arrow-right:after {
+   right: -11px;
+}
+
+.btn-arrow-right:after {
+  z-index: 1;
+}
+
+.btn-arrow-right:before {
+   background-color: white;
+}
+
+.property-details {
+  margin: 16px;
+}
+
+.form-control {
+  width: 80% !important;
+}
+
+.submit-button {
+  margin: 0 auto;
+  width: 320px;
+  display: block !important;
+}
